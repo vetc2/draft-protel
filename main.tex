@@ -108,39 +108,29 @@
   \setcounter{page}{1}
 
   % Sampul Bahasa Indonesia
-  \newcommand\covercontents{sampul/konten-id.tex}
+  \newcommand\covercontents{sampul/proposal.tex}
   \input{sampul/sampul-luar.tex}
-
-  % Lembar pengesahan
-  \input{lainnya/lembar-pengesahan.tex}
   \cleardoublepage
 
-  % Abstrak
-  \input{lainnya/abstrak.tex}
-  \cleardoublepage
+  % \begin{spacing}{1.5}
+  %   % Daftar isi
+  %   \renewcommand*\contentsname{DAFTAR ISI}
+  %   \addcontentsline{toc}{chapter}{\contentsname}
+  %   \tableofcontents
+  %   \cleardoublepage
 
-  \input{lainnya/abstrak-en.tex}
-  \cleardoublepage
+  %   % Daftar gambar
+  %   \renewcommand*\listfigurename{DAFTAR GAMBAR}
+  %   \addcontentsline{toc}{chapter}{\listfigurename}
+  %   \listoffigures
+  %   \cleardoublepage
 
-  \begin{spacing}{1.5}
-    % Daftar isi
-    \renewcommand*\contentsname{DAFTAR ISI}
-    \addcontentsline{toc}{chapter}{\contentsname}
-    \tableofcontents
-    \cleardoublepage
-
-    % Daftar gambar
-    \renewcommand*\listfigurename{DAFTAR GAMBAR}
-    \addcontentsline{toc}{chapter}{\listfigurename}
-    \listoffigures
-    \cleardoublepage
-
-    % Daftar tabel
-    \renewcommand*\listtablename{DAFTAR TABEL}
-    \addcontentsline{toc}{chapter}{\listtablename}
-    \listoftables
-    \cleardoublepage
-  \end{spacing}
+  %   % Daftar tabel
+  %   \renewcommand*\listtablename{DAFTAR TABEL}
+  %   \addcontentsline{toc}{chapter}{\listtablename}
+  %   \listoftables
+  %   \cleardoublepage
+  % \end{spacing}
 
   % Nomor halaman isi dimulai dari sini
   \pagenumbering{arabic}
